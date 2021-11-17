@@ -1,0 +1,11 @@
+#bg-img {
+  background-image: url(../ReferenceImages/northernLights.jpg);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-size: cover;
+}
+/*# sourceMappingURL=stylesheet.css.map */
