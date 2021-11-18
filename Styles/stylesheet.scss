@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./grid";
 
 
 #bg-img{
@@ -14,9 +15,6 @@
 .gh-icon{
     height: 3rem;
     width: 3rem;
-    padding-right:none;
-    margin-right:none;
-
 }
 .link-icon{
     margin-top:.25rem;
@@ -61,6 +59,4 @@ h2{
     font-size: 10rem;
     color: $off-white;
     font-family: $title-font;
-    padding:none;
-    margin:none;
 }

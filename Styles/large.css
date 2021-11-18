@@ -1,2 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-/*# sourceMappingURL=large.css.map */
+
+@media only screen and (min-width: 1301px) and (max-width: 1900px) {
+h3 {
+    font-size: 2rem;
+  }
+  .last-nav {
+    margin-left: 2rem;
+  }
+}

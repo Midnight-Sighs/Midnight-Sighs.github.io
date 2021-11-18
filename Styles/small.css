@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 451px) and (max-width: 900px) {
   h3 {
-    font-size: 2rem;
+    font-size: 1.5em;
   }
   .last-nav {
     margin-left: 2rem;
@@ -11,13 +11,12 @@
   }
   .title {
     font-size: 5rem;
-    margin-left: 3rem;
+    margin-left: 12rem;
   }
   .last-name {
-    margin-left: 10rem;
+    margin-left: 5rem;
   }
   .name {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 }
-/*# sourceMappingURL=small.css.map */

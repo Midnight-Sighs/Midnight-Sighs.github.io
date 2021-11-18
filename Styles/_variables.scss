@@ -4,3 +4,20 @@ $title-font: 'Anton', sans-serif;
 
 $bright-yellow: #ffd06c;
 $off-white: rgb(255, 239, 215); 
+
+$grid-breakpoints: (
+    xsm: 500px,
+    sm: 950px,
+    md: 1350px,
+    lg: 1950px,
+    xl: 2550px
+);
+$container-max-widths: (
+    xsm: 450px,
+    sm: 900px,
+    md: 1300px,
+    lg: 1900px,
+);
+$container-min-width:(
+    xl: 2500px
+);
