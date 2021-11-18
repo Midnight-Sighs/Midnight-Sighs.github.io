@@ -11,7 +11,22 @@
     left:0;
     background-size: cover;
 }
+.gh-icon{
+    height: 3rem;
+    width: 3rem;
+    padding-right:none;
+    margin-right:none;
 
+}
+.link-icon{
+    margin-top:.25rem;
+    height: 3rem;
+    width: 3rem;
+}
+.tree-icon{
+    height: 4rem;
+    width: 4rem;
+}
 h1{
     font-size: 10rem;
     font-family: $title-font;
@@ -23,7 +38,29 @@ h3{
     margin-left: 2rem;
     margin-top: .5rem;
 }
-
+h2{
+    font-size: 4.5rem;
+    font-family: $title-font;
+    color: $bright-yellow;
+    margin:none;
+}
+.name{
+    color: $off-white
+}
+.last-name{
+    margin-left: 4rem;
+}
 .last-nav{
     margin-left:9rem;
+}
+
+.name-icons{
+    margin-top: 5rem;
+}
+.title{
+    font-size: 10rem;
+    color: $off-white;
+    font-family: $title-font;
+    padding:none;
+    margin:none;
 }

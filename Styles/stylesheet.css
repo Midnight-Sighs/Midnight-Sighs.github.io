@@ -10,6 +10,24 @@
   background-size: cover;
 }
 
+.gh-icon {
+  height: 3rem;
+  width: 3rem;
+  padding-right: none;
+  margin-right: none;
+}
+
+.link-icon {
+  margin-top: .25rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.tree-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
 h1 {
   font-size: 10rem;
   font-family: "Anton", sans-serif;
@@ -23,7 +41,34 @@ h3 {
   margin-top: .5rem;
 }
 
+h2 {
+  font-size: 4.5rem;
+  font-family: "Anton", sans-serif;
+  color: #ffd06c;
+  margin: none;
+}
+
+.name {
+  color: #ffefd7;
+}
+
+.last-name {
+  margin-left: 4rem;
+}
+
 .last-nav {
   margin-left: 9rem;
+}
+
+.name-icons {
+  margin-top: 5rem;
+}
+
+.title {
+  font-size: 10rem;
+  color: #ffefd7;
+  font-family: "Anton", sans-serif;
+  padding: none;
+  margin: none;
 }
 /*# sourceMappingURL=stylesheet.css.map */
