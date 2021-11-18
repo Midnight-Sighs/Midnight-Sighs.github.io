@@ -3,5 +3,21 @@
   h3 {
     font-size: 2rem;
   }
+  .last-nav {
+    margin-left: 2rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 5rem;
+    margin-left: 3rem;
+  }
+  .last-name {
+    margin-left: 10rem;
+  }
+  .name {
+    padding-left: 2rem;
+  }
 }
 /*# sourceMappingURL=small.css.map */
