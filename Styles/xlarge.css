@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@media only screen and (min-width: 2500px) {
-  h3 {
-    font-size: 8rem;
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+h3 {
+    font-size: 2rem;
   }
-  .title{
-    font-size: 15rem;
+  .last-nav {
+    margin-left: 2rem;
   }
 }

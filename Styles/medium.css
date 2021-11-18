@@ -1,22 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@media only screen and (min-width: 901px) and (max-width: 1300px) {
+@media only screen and (min-width: 768px) and (max-width: 991px)
+ {
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .last-nav {
     margin-left: 2rem;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .title {
-    font-size: 6rem;
-    margin-left: 9rem;
+    font-size: 5rem;
   }
   .last-name {
     margin-left: 1rem;
   }
   .name {
-    padding-left: 2rem;
+    padding-left: 4rem;
+  }
+  .gh-icon{
+    height: 2rem;
+    width: 2rem;
+  }
+  .link-icon{
+      margin-top:.25rem;
+      height: 2rem;
+      width: 2rem;
+  }
+  .tree-icon{
+      height: 2rem;
+      width: 2rem;
   }
 }
