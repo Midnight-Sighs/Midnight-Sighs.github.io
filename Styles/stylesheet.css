@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 #bg-img {
   background-image: url(../ReferenceImages/northernLights.jpg);
   background-repeat: no-repeat;
@@ -7,5 +8,22 @@
   top: 0;
   left: 0;
   background-size: cover;
+}
+
+h1 {
+  font-size: 10rem;
+  font-family: "Anton", sans-serif;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: "Anton", sans-serif;
+  color: #ffd06c;
+  margin-left: 2rem;
+  margin-top: .5rem;
+}
+
+.last-nav {
+  margin-left: 9rem;
 }
 /*# sourceMappingURL=stylesheet.css.map */

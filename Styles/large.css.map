@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,kEAAI",
+    "sources": [
+        "large.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "large.css"
+}
