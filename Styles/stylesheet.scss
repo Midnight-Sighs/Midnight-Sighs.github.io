@@ -1,5 +1,20 @@
 @import "./variables";
 
+//#region Misc
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #09306b; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $my-teal; 
+  }
+
 #bg-img{
     background-image: url(../ReferenceImages/northernLights.jpg);
     background-repeat: no-repeat;
@@ -9,19 +24,9 @@
     top:0;
     left:0;
     background-size: cover;
-}
-.gh-icon{
-    height: 5rem;
-    width: 5rem;
-}
-.link-icon{
-    margin-top:.25rem;
-    height: 5rem;
-    width: 5rem;
-}
-.tree-icon{
-    height: 5rem;
-    width: 5rem;
+    z-index: -2;
+    overflow-y: scroll;
+    overflow-x:hidden;
 }
 h1{
     font-size: 10rem;
@@ -39,6 +44,31 @@ h2{
     font-family: $title-font;
     color: $bright-yellow;
     margin:none;
+}
+//#endregion Misc
+
+//#region Landing Page
+.gh-icon{
+    height: 5rem;
+    width: 5rem;
+    & :hover{
+        fill: $my-teal;
+    }
+}
+.link-icon{
+    margin-top:.25rem;
+    height: 5rem;
+    width: 5rem;
+    & :hover{
+        fill: $my-teal;
+    }
+}
+.tree-icon{
+    height: 5rem;
+    width: 5rem;
+    & :hover{
+        fill: $my-teal;
+    }
 }
 .name{
     color: $off-white;
@@ -58,5 +88,29 @@ h2{
     font-size: 14rem;
     color: $off-white;
     font-family: $title-font;
-    margin-left: 8rem;
+    margin-left: 7rem;
 }
+//#endregion Landing Page
+
+//#region Projects
+.pro-tit{
+    h1{
+        font-size: 6rem;
+        margin-top: 10rem;
+    }
+}
+.gh-stars{
+    height: 20rem;
+}
+.pro-cards{
+    height: 30rem;
+    position: relative;
+}
+.card-bg{
+    height: 30rem;
+    margin-left:3rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    background-color:#09306b8c;
+}
+//#endregion Projects

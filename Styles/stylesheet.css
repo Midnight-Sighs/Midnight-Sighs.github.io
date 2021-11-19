@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #09306b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #29C983;
+}
+
 #bg-img {
   background-image: url(../ReferenceImages/northernLights.jpg);
   background-repeat: no-repeat;
@@ -8,22 +22,9 @@
   top: 0;
   left: 0;
   background-size: cover;
-}
-
-.gh-icon {
-  height: 5rem;
-  width: 5rem;
-}
-
-.link-icon {
-  margin-top: .25rem;
-  height: 5rem;
-  width: 5rem;
-}
-
-.tree-icon {
-  height: 5rem;
-  width: 5rem;
+  z-index: -2;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -44,6 +45,34 @@ h2 {
   font-family: "Anton", sans-serif;
   color: #ffd06c;
   margin: none;
+}
+
+.gh-icon {
+  height: 5rem;
+  width: 5rem;
+}
+
+.gh-icon :hover {
+  fill: #29C983;
+}
+
+.link-icon {
+  margin-top: .25rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.link-icon :hover {
+  fill: #29C983;
+}
+
+.tree-icon {
+  height: 5rem;
+  width: 5rem;
+}
+
+.tree-icon :hover {
+  fill: #29C983;
 }
 
 .name {
@@ -67,6 +96,28 @@ h2 {
   font-size: 14rem;
   color: #ffefd7;
   font-family: "Anton", sans-serif;
-  margin-left: 8rem;
+  margin-left: 7rem;
+}
+
+.pro-tit h1 {
+  font-size: 6rem;
+  margin-top: 10rem;
+}
+
+.gh-stars {
+  height: 20rem;
+}
+
+.pro-cards {
+  height: 30rem;
+  position: relative;
+}
+
+.card-bg {
+  height: 30rem;
+  margin-left: 3rem;
+  margin-right: 6rem;
+  margin-bottom: 2rem;
+  background-color: #09306b8c;
 }
 /*# sourceMappingURL=stylesheet.css.map */
