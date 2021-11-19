@@ -67,10 +67,11 @@ h2{
     }
 }
 .name{
+    margin-left: 5rem;
     color: $off-white;
 }
 .last-name{
-    margin-left: 12rem;
+    margin-left: 23rem;
 }
 .last-nav{
     margin-left:9rem;
@@ -84,12 +85,13 @@ h2{
     font-size: 14rem;
     color: $off-white;
     font-family: $title-font;
-    margin-left: 7rem;
+    margin-left: 26rem;
 }
 //#endregion Landing Page
 
 //#region Projects
 .pro-tit{
+    margin-left: 6rem;
     h1{
         font-size: 6rem;
         margin-top: 10rem;
@@ -106,8 +108,9 @@ h2{
 }
 .card-bg{
     position:relative;
-    height: 35rem;
-    margin-left:3rem;
+    height: 40rem;
+    width:30rem;
+    margin-left:1rem;
     margin-right: 6rem;
     margin-bottom: 2rem;
     border-radius: 15px;
@@ -118,17 +121,17 @@ h2{
     }
     & img{
         position:absolute;
-        width: 30rem;
-        height: 15rem;
+        width: 35rem;
+        height: 18rem;
         top:2rem;
-        left:-1rem;
+        left:-2rem;
         border: 1px solid $bright-yellow;
         &:hover{
             border: 3px solid $my-teal;
         }
     }
     .pro-card-cont{
-        margin-top: 18rem;
+        margin-top: 21rem;
         width: 20rem;
     }
     .pro-card-gh{
@@ -136,7 +139,7 @@ h2{
         width: 2rem;
     }
     .pro-card-desc{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         text-align: justify;
         padding: 10px;
         font-family:$regular-font;
@@ -146,6 +149,9 @@ h2{
         font-family: $regular-font;
         font-size: 2rem;
         font-weight: 600;
+    }
+    .card-three{
+        margin-left: 0;
     }
 }
 //#endregion Projects

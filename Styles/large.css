@@ -11,13 +11,10 @@
   }
   .title {
     font-size: 6rem;
-    margin-left: 13rem;
+    margin-left: 18rem;
   }
   .last-name {
-    margin-left: 2rem;
-  }
-  .name {
-    padding-left: 2rem;
+    margin-left: 7rem;
   }
   .gh-icon{
     height: 2rem;
@@ -31,5 +28,18 @@
   .tree-icon{
       height: 2rem;
       width: 2rem;
+  }
+  .pro-tit{
+    margin-left: 5rem;
+  }
+  .card-bg{
+    margin-left: 0;
+    width: 25rem;
+  }
+  .card-bg img{
+    left: -2rem;
+  }
+  .card-three{
+    margin-left: 15rem;
   }
 }

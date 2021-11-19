@@ -74,11 +74,12 @@ h2 {
 }
 
 .name {
+  margin-left: 5rem;
   color: #ffefd7;
 }
 
 .last-name {
-  margin-left: 12rem;
+  margin-left: 23rem;
 }
 
 .last-nav {
@@ -94,7 +95,11 @@ h2 {
   font-size: 14rem;
   color: #ffefd7;
   font-family: "Anton", sans-serif;
-  margin-left: 7rem;
+  margin-left: 26rem;
+}
+
+.pro-tit {
+  margin-left: 6rem;
 }
 
 .pro-tit h1 {
@@ -115,8 +120,9 @@ h2 {
 
 .card-bg {
   position: relative;
-  height: 35rem;
-  margin-left: 3rem;
+  height: 40rem;
+  width: 30rem;
+  margin-left: 1rem;
   margin-right: 6rem;
   margin-bottom: 2rem;
   border-radius: 15px;
@@ -132,10 +138,10 @@ h2 {
 
 .card-bg img {
   position: absolute;
-  width: 30rem;
-  height: 15rem;
+  width: 35rem;
+  height: 18rem;
   top: 2rem;
-  left: -1rem;
+  left: -2rem;
   border: 1px solid #ffd06c;
 }
 
@@ -144,7 +150,7 @@ h2 {
 }
 
 .card-bg .pro-card-cont {
-  margin-top: 18rem;
+  margin-top: 21rem;
   width: 20rem;
 }
 
@@ -154,7 +160,7 @@ h2 {
 }
 
 .card-bg .pro-card-desc {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: justify;
   padding: 10px;
   font-family: "Old Standard TT", serif;
@@ -165,5 +171,9 @@ h2 {
   font-family: "Old Standard TT", serif;
   font-size: 2rem;
   font-weight: 600;
+}
+
+.card-bg .card-three {
+  margin-left: 0;
 }
 /*# sourceMappingURL=stylesheet.css.map */
