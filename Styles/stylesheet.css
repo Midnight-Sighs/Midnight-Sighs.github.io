@@ -102,10 +102,12 @@ h2 {
 .pro-tit h1 {
   font-size: 6rem;
   margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .gh-stars {
-  height: 20rem;
+  height: 30rem;
 }
 
 .pro-cards {
@@ -114,10 +116,44 @@ h2 {
 }
 
 .card-bg {
-  height: 30rem;
+  position: relative;
+  height: 50rem;
   margin-left: 3rem;
   margin-right: 6rem;
   margin-bottom: 2rem;
+  border-radius: 15px;
+  -webkit-box-shadow: 15px 15px 10px 10px #ffd06c7e;
+          box-shadow: 15px 15px 10px 10px #ffd06c7e;
   background-color: #09306b8c;
+}
+
+.card-bg img {
+  position: absolute;
+  width: 35rem;
+  height: 18rem;
+  top: 50px;
+  left: -60px;
+  border: 1px solid #ffd06c;
+}
+
+.card-bg .pro-card-cont {
+  margin-top: 22rem;
+  width: 20rem;
+  font-size: 2.5rem;
+}
+
+.card-bg .pro-card-gh {
+  height: 3rem;
+  width: 3rem;
+}
+
+.card-bg .pro-card-desc {
+  font-size: 1.75rem;
+  text-align: justify;
+  padding: 10px;
+}
+
+.card-bg .pro-card-tit {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=stylesheet.css.map */
