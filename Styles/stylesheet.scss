@@ -4,13 +4,9 @@
 ::-webkit-scrollbar {
     width: 10px;
   }
-  
-  /* Track */
   ::-webkit-scrollbar-track {
     background: #09306b; 
   }
-   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: $my-teal; 
   }
@@ -102,7 +98,7 @@ h2{
     }
 }
 .gh-stars{
-    height: 30rem;
+    height: 20rem;
 }
 .pro-cards{
     height: 30rem;
@@ -110,37 +106,46 @@ h2{
 }
 .card-bg{
     position:relative;
-    height: 50rem;
+    height: 35rem;
     margin-left:3rem;
     margin-right: 6rem;
     margin-bottom: 2rem;
     border-radius: 15px;
     box-shadow: 15px 15px 10px 10px $half-bright-yellow;
     background-color:#09306b8c;
+    &:hover{
+        box-shadow: 15px 15px 10px 10px $half-my-teal;
+    }
     & img{
         position:absolute;
-        width: 35rem;
-        height: 18rem;
-        top:50px;
-        left:-60px;
+        width: 30rem;
+        height: 15rem;
+        top:2rem;
+        left:-1rem;
         border: 1px solid $bright-yellow;
+        &:hover{
+            border: 3px solid $my-teal;
+        }
     }
     .pro-card-cont{
-        margin-top: 22rem;
+        margin-top: 18rem;
         width: 20rem;
-        font-size: 2.5rem;
     }
     .pro-card-gh{
-        height: 3rem;
-        width: 3rem;
+        height: 2rem;
+        width: 2rem;
     }
     .pro-card-desc{
-        font-size: 1.75rem;
+        font-size: 1.25rem;
         text-align: justify;
         padding: 10px;
+        font-family:$regular-font;
     }
     .pro-card-tit{
         margin-left: 1rem;
+        font-family: $regular-font;
+        font-size: 2rem;
+        font-weight: 600;
     }
 }
 //#endregion Projects
