@@ -13,11 +13,8 @@
   .title {
     font-size: 5rem;
   }
-  .last-name {
-    margin-left: 1rem;
-  }
   .name {
-    padding-left: 4rem;
+    margin-left: -10rem;
   }
   .gh-icon{
     height: 2rem;
@@ -32,4 +29,12 @@
       height: 2rem;
       width: 2rem;
   }
+  .card-bg{
+    width: 28rem;
+    box-shadow: 10px 10px 5px 5px #ffd06c7e;
+  }
+  .card-bg:hover{
+      box-shadow: 10px 10px 5px 5px #29c9848c;
+  }  
+  
 }

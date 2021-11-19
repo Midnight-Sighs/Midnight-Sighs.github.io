@@ -15,7 +15,7 @@
         margin-left: 1rem;
     }
     .name {
-        margin-left: 3rem;
+        margin-left: -12rem;
     }
     .last-name{
         margin-left: 5rem;
@@ -33,5 +33,19 @@
         height: 2rem;
         width: 2rem;
     }
-
+    .card-bg{
+        margin-left: 8rem;
+        width: 30rem;
+        box-shadow: 10px 10px 5px 5px #ffd06c7e;
+    }
+    .card-bg:hover{
+        box-shadow: 10px 10px 5px 5px #29c9848c;
+    }        
+    
+    .card-bg img{
+        width: 33rem;
+    }
+    .pro-tit h1{
+        font-size: 4rem;
+    }
 }

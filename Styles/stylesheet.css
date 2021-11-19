@@ -120,9 +120,9 @@ h2 {
   margin-right: 6rem;
   margin-bottom: 2rem;
   border-radius: 15px;
+  background-color: #09306b8c;
   -webkit-box-shadow: 15px 15px 10px 10px #ffd06c7e;
           box-shadow: 15px 15px 10px 10px #ffd06c7e;
-  background-color: #09306b8c;
 }
 
 .card-bg:hover {

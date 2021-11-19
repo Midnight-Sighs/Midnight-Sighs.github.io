@@ -41,19 +41,19 @@
         font-size: 4rem;
     }
     .card-bg{
-        margin-left: 2rem;
-        width:24rem;
+        margin-left: 1rem;
+        width:18rem;
         box-shadow: none;
         height: 27rem;
         border: solid 2px rgb(5, 5, 65)
     }
     .card-bg img{
-        left: 2rem;
+        left: -1rem;
         width:20rem;
         height: 10rem;
     }
     .card-bg .pro-card-cont{
-        margin-top:13rem;
+        margin-top:12.5rem;
         font-size: 1.5rem;
     }
     .card-bg .pro-card-gh{
@@ -61,6 +61,8 @@
         width:2rem;
     }
     .card-bg .pro-card-desc{
+        margin-top:-1.5rem;
+        padding-top:none;
         font-size: 1rem;
     }
 }
