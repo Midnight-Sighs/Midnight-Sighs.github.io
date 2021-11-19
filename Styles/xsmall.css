@@ -15,7 +15,10 @@
         margin-left: 1rem;
     }
     .name {
-        margin-left: 3rem;
+        margin-left: 0rem;
+    }
+    .name-icons{
+        margin-left: 1rem;
     }
     .last-name{
         margin-left: 12rem;
@@ -32,5 +35,31 @@
     .tree-icon{
         height: 2rem;
         width: 2rem;
+    }
+
+    .pro-tit h1{
+        font-size: 4rem;
+    }
+    .card-bg{
+        margin-left: 2rem;
+        width:18rem;
+        box-shadow: none;
+        height: 30rem;
+    }
+    .card-bg img{
+        margin-left: 2.5rem;
+        width:20rem;
+        height: 10rem;
+    }
+    .card-bg .pro-card-cont{
+        margin-top:15rem;
+        font-size: 1.5rem;
+    }
+    .card-bg .pro-card-gh{
+        height:2rem;
+        width:2rem;
+    }
+    .card-bg .pro-card-desc{
+        font-size: 1rem;
     }
 }
