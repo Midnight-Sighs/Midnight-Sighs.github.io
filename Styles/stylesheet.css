@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Old+Standard+TT&display=swap");
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: #29C983;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -147,6 +155,10 @@ h2 {
 
 .card-bg img:hover {
   border: 3px solid #29C983;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  top: 0rem;
+  z-index: 2;
 }
 
 .card-bg .pro-card-cont {
@@ -175,5 +187,62 @@ h2 {
 
 .card-bg .card-three {
   margin-left: 0;
+}
+
+.tech-spacer {
+  margin-top: 20rem;
+  text-align: center;
+}
+
+.tech-row {
+  width: 100rem;
+  margin-left: 5rem;
+}
+
+.tech-tit {
+  color: #ffefd7;
+}
+
+.tech-box {
+  background: #03335b86;
+  height: 40rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+  margin-right: 0;
+  padding: 0;
+}
+
+.bg-lg {
+  width: 60%;
+}
+
+.bg-lg p {
+  font-size: 8rem;
+  color: #29C983;
+}
+
+.bg-sm {
+  width: 35%;
+}
+
+.bg-sm p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #29C983;
+}
+
+.bg-sm h3 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.tech-icon {
+  height: 8rem;
+  width: 8rem;
+}
+
+.too-big {
+  height: 6rem;
+  width: 6rem;
 }
 /*# sourceMappingURL=stylesheet.css.map */
