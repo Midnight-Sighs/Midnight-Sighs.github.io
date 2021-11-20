@@ -65,4 +65,42 @@
         padding-top:none;
         font-size: 1rem;
     }
+
+
+
+    .tech-box{
+        height:12rem;
+    }
+    .tech-spacer{
+        margin-top: 65rem;
+    }
+    .tech-tit{
+        font-size:3rem;
+    }
+    .tech-row{
+        margin-left: 0;
+        width:auto;
+    }
+    .tech-icon{
+        height:2rem;
+        width:2rem;
+    }
+    .bg-lg p{
+        font-size: 2rem;
+    }
+    .bg-lg{
+        width:80%;
+        margin-left:2rem;
+    }
+    .bg-sm{
+        width:80%;
+        margin-left:2rem;
+        height: 38rem;
+    }
+    .bg-sm p{
+        font-size:1;
+    }
+    .bg-sm h3{
+        font-size:2rem;
+    }
 }
