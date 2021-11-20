@@ -1,0 +1,41 @@
+.star{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 13vh; 
+    background:linear-gradient(-42deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+    filter: drop-shadow(0px 0px .7vh rgb(255, 255, 255));
+    border-radius: 40%;
+}
+
+.star::after, .star::before{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: calc(50% - .2vh);
+    height: .5vh;
+    width: 3vh;
+    background: linear-gradient(-45deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 35%, rgb(255, 255, 255) 100%);
+    transform: translateX(50%) rotateZ(-45deg);
+    border-radius: 50%;
+    animation: tail 5s ease-in-out infinite;
+}
+
+
+@keyframes tail{
+0%{
+    width: 0%;
+}
+40%{
+    width: 8vh;
+}
+100%{
+    width: 0%;
+}
+}
+
+
+.star::after{
+    transform: translateX(50%) rotateZ(45deg);
+}

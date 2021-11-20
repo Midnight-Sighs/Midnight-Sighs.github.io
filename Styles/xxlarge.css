@@ -3,7 +3,64 @@
   h3 {
     font-size: 6rem;
   }
-    .title{
-    font-size: 15rem;
+  .title{
+    font-size: 23rem;
   }
+  h2{
+    font-size: 10rem;
+  }
+  .name{
+    margin-top: 10rem;
+  }
+  .gh-icon{
+    height: 8rem;
+    width: 8rem;
+  }
+  .link-icon{
+    height: 8rem;
+    width: 8rem;
+  }
+  .tree-icon{
+    height: 8rem;
+    width: 8rem;
+  }
+  .last-name{
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .last-nav{
+    margin-left: 12rem;
+  }
+
+  .gh-stars{
+    height: 40rem;
+  }
+  .pro-tit h1{
+    font-size: 8rem;
+  }
+  .card-bg{
+    margin-left: 5%;
+    width: 23%;
+    height: 85rem;
+  }
+  .card-bg img{
+    width: 115%;
+    height: 35%;
+    margin-top: 3rem;
+  }
+  .card-bg .pro-card-cont{
+    width: 90%;
+  }
+  .card-bg .pro-card-tit{
+    font-size: 4rem;
+    margin-top: 35rem;
+  }
+  .card-bg .pro-card-desc{
+    font-size: 3rem;
+    padding: 1rem;
+  }
+  .card-bg .pro-card-gh{
+    height: 4rem;
+    width: 4rem;
+}
 }
