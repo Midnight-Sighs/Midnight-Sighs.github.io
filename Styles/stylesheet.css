@@ -260,12 +260,6 @@ h2 {
   margin-left: 3rem;
 }
 
-.about-bg img {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
 .about-bg p {
   font-size: 1.5rem;
   color: #29C983;
