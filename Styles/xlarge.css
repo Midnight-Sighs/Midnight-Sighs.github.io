@@ -24,13 +24,25 @@
   }
   .card-bg{
     margin-left: 0rem;
-    margin-right: 3.5rem;
+    margin-right: 5rem;
     width: 25rem;
   }
   .card-bg img{
-    width: 27rem;
+    width: 29rem;
   }
   .pro-tit{
     margin-left: 3rem;;
+  }
+
+  .bg-lg{
+    width: 50%;
+  }
+  .tech-icon{
+    height: 6rem;
+    width: 6rem;
+  }
+  .too-big{
+    height:5rem;
+    width: 5rem;
   }
 }

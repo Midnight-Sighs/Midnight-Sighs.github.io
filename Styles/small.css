@@ -41,11 +41,45 @@
     .card-bg:hover{
         box-shadow: 10px 10px 5px 5px #29c9848c;
     }        
-    
     .card-bg img{
         width: 33rem;
     }
     .pro-tit h1{
         font-size: 4rem;
+    }
+
+
+    .tech-spacer{
+        margin-top: 100rem;
+    }
+    .tech-tit{
+        font-size: 5rem;
+    }
+    .tech-row{
+        margin-left: 2rem;
+        width:auto;
+    }
+    .bg-lg{
+        width:80%;
+        margin-left:2rem;
+        height:22rem;
+    }
+    .tech-icon{
+        height:4rem;
+        width:4rem;
+    }
+    .bg-lg p{
+        font-size: 4rem;
+    }
+    .bg-sm{
+        width:80%;
+        margin-left:2rem;
+        height: 42rem;
+    }
+    .bg-sm p{
+        font-size:2rem;
+    }
+    .bg-sm h3{
+        font-size:3rem;
     }
 }

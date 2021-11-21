@@ -35,11 +35,24 @@
   .card-bg{
     margin-left: 0;
     width: 25rem;
+    height: 45rem;
   }
   .card-bg img{
     left: -2rem;
+    width: 30rem;
   }
   .card-three{
     margin-left: 15rem;
   }
+  .tech-spacer{
+    margin-top: 70rem;
+  }
+  .bg-sm{
+    width: 60%;
+  }
+  .tech-tit{
+    font-size:6rem;
+  }
+
+
 }
