@@ -62,5 +62,34 @@
   .card-bg .pro-card-gh{
     height: 4rem;
     width: 4rem;
-}
+  }
+
+
+  .tech-box{
+    height:78rem;
+  }
+  .tech-row{
+    width: 100%;
+  }
+  .tech-spacer{
+    margin-top: 70rem;
+  }
+  .tech-icon{
+    height: 16rem;
+    width: 16rem;
+  }
+  .too-big{
+    height: 14rem;
+    width: 14rem;
+  }
+  .bg-lg p{
+    font-size: 16rem;
+  }
+  .bg-sm p{
+    font-size:4rem;
+  }
+  .bg-sm h3{
+    font-size:8rem;
+  }
+
 }
