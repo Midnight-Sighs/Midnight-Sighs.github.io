@@ -213,7 +213,8 @@
     height: .8vh;
     background:linear-gradient(-42deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
     filter: drop-shadow(0px 0px .7vh rgb(255, 255, 255));
-    border-radius: 50%;
+    border-radius: 100%;
+    animation-delay: 10s;
     animation:  tail 2s ease-in-out infinite,
                 fall 2s ease-in-out infinite;
     

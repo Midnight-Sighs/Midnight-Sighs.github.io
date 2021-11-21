@@ -134,7 +134,7 @@ h2 {
   margin-right: 6rem;
   margin-bottom: 2rem;
   border-radius: 15px;
-  background-color: #09306b8c;
+  background-color: #03335B;
   -webkit-box-shadow: 15px 15px 10px 10px #ffd06c7e;
           box-shadow: 15px 15px 10px 10px #ffd06c7e;
 }
@@ -244,5 +244,32 @@ h2 {
 .too-big {
   height: 6rem;
   width: 6rem;
+}
+
+.about-tit {
+  text-align: center;
+  color: #ffefd7;
+}
+
+.about-row {
+  width: 100vw;
+}
+
+.about-bg {
+  background-color: #03335b86;
+  margin-left: 3rem;
+}
+
+.about-bg img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.about-bg p {
+  font-size: 1.5rem;
+  color: #29C983;
+  padding: 1rem;
+  text-align: justify;
 }
 /*# sourceMappingURL=stylesheet.css.map */

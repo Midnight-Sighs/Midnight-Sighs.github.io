@@ -120,7 +120,7 @@ h2{
     margin-right: 6rem;
     margin-bottom: 2rem;
     border-radius: 15px;
-    background-color:#09306b8c;
+    background-color:$dark-blue;
     box-shadow: 15px 15px 10px 10px $half-bright-yellow;
     &:hover{
         box-shadow: 15px 15px 10px 10px $half-my-teal;
@@ -214,3 +214,24 @@ h2{
 }
 
 //#endregion Technologies
+.about-tit{
+    text-align: center;
+    color: $off-white;
+}
+.about-row{
+    width: 100vw;
+}
+.about-bg{
+    background-color: $half-dark-blue;
+    margin-left: 3rem;
+}
+.about-bg img{
+    align-self: center;
+}
+.about-bg p{
+    font-size: 1.5rem;
+    color: $my-teal;
+    padding: 1rem;
+    text-align: justify;
+}
+//#region 
