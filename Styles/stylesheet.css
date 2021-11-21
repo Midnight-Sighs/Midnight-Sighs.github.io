@@ -239,6 +239,8 @@ h2 {
 .tech-icon {
   height: 8rem;
   width: 8rem;
+  -webkit-filter: drop-shadow(6px 6px 0 #090d14);
+          filter: drop-shadow(6px 6px 0 #090d14);
 }
 
 .too-big {

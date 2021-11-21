@@ -103,4 +103,14 @@
     .bg-sm h3{
         font-size:2rem;
     }
+    .about-tit{
+        font-size: 4rem;
+    }
+    .about-bg{
+        width: 18rem;
+    }
+    .about-bg p{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
 }
