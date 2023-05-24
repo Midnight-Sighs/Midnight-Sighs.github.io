@@ -4,7 +4,7 @@ import './MainText.scss'
 export const MainText = () => {
     return (
         <div className="main-text-wrapper">
-            <p>!! PAGE UNDER CONSTRUCTION !!</p>
+            <p>!! PAGE UNDER CONSTRUCTION -- NOT MOBILE FRIENDLY YET !!</p>
             <p className="real-name">
                 <span>
                     Sierra

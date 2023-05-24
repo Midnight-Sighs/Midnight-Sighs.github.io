@@ -1,0 +1,57 @@
+@import '../../Styles/variables';
+
+.art-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .art-descriptive-container{
+        max-width: 75%;
+        background-color: $half-dark-blue;
+        padding: $container-padding;
+        border-radius: $container-border-radius;
+        font-size: $container-font-size;
+        color: $off-white;
+    }
+    .preview-containers{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 75%;
+        margin-top: 1rem;
+    }
+    .each-art-type{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 350px;
+        max-width: 15px;
+        max-height: 625px;
+        background-color: $dark-blue;
+        padding: $container-padding;
+        border-radius: $container-border-radius;
+        margin: 0 3rem 3rem 3rem;
+        box-shadow: 15px 15px 3px 3px $half-bright-yellow;
+        &:hover{
+            box-shadow: 15px 15px 10px 10px $half-my-teal;
+        }
+        img{
+            max-width: 350px;
+            height: 300px;
+            object-fit: cover;
+            &:hover{
+                transform: scale(2.5);
+                z-index: 2;
+                object-fit:contain;
+            }
+        }
+        h6{
+            color: $off-white;
+            font-size: 1.5rem; 
+        }
+        .description-text{
+            font-family: $regular-font;
+            font-size: $container-font-size;
+            color: $off-white;
+        }
+    }
+}
