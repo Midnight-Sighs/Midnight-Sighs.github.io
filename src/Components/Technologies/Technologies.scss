@@ -12,8 +12,8 @@
         flex-wrap: wrap;
         max-width: 60%;
         background-color: $half-dark-blue;
-        border-radius: 15px;
-        padding: 10px;
+        border-radius: $container-border-radius;
+        padding: $container-padding;
         svg{
             height: 6rem;
             width: 6rem;

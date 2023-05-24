@@ -56,16 +56,18 @@ export const OtherTechLibraries = () => {
             <h3 className="section-headers">
                 Other Tech Libraries/Helpers
             </h3>
-            <p>
-                While not meant to be an exhaustive list, this is just meant to be a demonstration of other things I've used and am familiar with.  Moreso as a demonstration that I can adapt to many different types of documentations and styles.  
-            </p>
-            <p>
-                <ul>
-                    {libraryList.map((library)=>(
-                        <li key={`library-${library.id}`}>{library.name}</li>
-                    ))}
-                </ul>
-            </p>
+            <div className="other-tech-container">
+                <p>
+                    While not meant to be an exhaustive list, this is just meant to be a demonstration of other things I've used and am familiar with.  Moreso as a demonstration that I can adapt to many different types of documentations and styles.  
+                </p>
+                <p>
+                    <ul>
+                        {libraryList.map((library)=>(
+                            <li key={`library-${library.id}`}>{library.name}</li>
+                        ))}
+                    </ul>
+                </p>
+            </div>
         </div>
     )
 }

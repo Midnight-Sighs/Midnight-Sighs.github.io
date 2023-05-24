@@ -1,5 +1,22 @@
 @import '../../Styles/variables';
 
 .other-tech-wrapper{
-    margin: 0 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 65%;
+    .other-tech-container{
+        background-color: $half-dark-blue;
+        padding: $container-padding;
+        border-radius: $container-border-radius;
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        p, li{
+            min-width: 340px;
+            color: $off-white;
+            font-size: $container-font-size;
+        }
+    }
 }
