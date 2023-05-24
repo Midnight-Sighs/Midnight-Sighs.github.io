@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.babf2c81.css",
-    "main.js": "/static/js/main.391025b3.js",
+    "main.css": "/static/css/main.b8251ae0.css",
+    "main.js": "/static/js/main.0c7cafbc.js",
     "static/media/MJ-NL-DP.png": "/static/media/MJ-NL-DP.28949fbd5daf0b556b97.png",
     "static/media/MJ-NorthernLights.png": "/static/media/MJ-NorthernLights.d6fa4e20463bf72bfe84.png",
+    "static/media/Midjourney.png": "/static/media/Midjourney.a4cebad69eeca7640b66.png",
+    "static/media/MiniPainting.png": "/static/media/MiniPainting.bf1ee43c64c4bec36457.png",
     "static/media/Actiscribe.png": "/static/media/Actiscribe.715ff1679ccae11c9829.png",
+    "static/media/Crafts.png": "/static/media/Crafts.046eee8bd2e9fe6f8263.png",
     "static/media/GoblinCamp.png": "/static/media/GoblinCamp.9298ea0f06837c0f9e4c.png",
+    "static/media/Traditional.png": "/static/media/Traditional.27e18584ee9461f39a06.png",
+    "static/media/Digital.png": "/static/media/Digital.23e799a88d40f41762eb.png",
     "index.html": "/index.html",
-    "main.babf2c81.css.map": "/static/css/main.babf2c81.css.map",
-    "main.391025b3.js.map": "/static/js/main.391025b3.js.map"
+    "main.b8251ae0.css.map": "/static/css/main.b8251ae0.css.map",
+    "main.0c7cafbc.js.map": "/static/js/main.0c7cafbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.babf2c81.css",
-    "static/js/main.391025b3.js"
+    "static/css/main.b8251ae0.css",
+    "static/js/main.0c7cafbc.js"
   ]
 }
