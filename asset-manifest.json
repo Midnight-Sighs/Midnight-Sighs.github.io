@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.babf2c81.css",
+    "main.js": "/static/js/main.391025b3.js",
+    "static/media/MJ-NL-DP.png": "/static/media/MJ-NL-DP.28949fbd5daf0b556b97.png",
+    "static/media/MJ-NorthernLights.png": "/static/media/MJ-NorthernLights.d6fa4e20463bf72bfe84.png",
+    "static/media/Actiscribe.png": "/static/media/Actiscribe.715ff1679ccae11c9829.png",
+    "static/media/GoblinCamp.png": "/static/media/GoblinCamp.9298ea0f06837c0f9e4c.png",
+    "index.html": "/index.html",
+    "main.babf2c81.css.map": "/static/css/main.babf2c81.css.map",
+    "main.391025b3.js.map": "/static/js/main.391025b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.babf2c81.css",
+    "static/js/main.391025b3.js"
+  ]
+}
