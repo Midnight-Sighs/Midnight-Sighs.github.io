@@ -1,0 +1,16 @@
+@import '../../Styles/variables';
+
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    h5{
+        font-size: 2rem;
+        font-family: $title-font;
+        color: $bright-yellow;
+        margin-left: 2rem;
+        margin-top: .5rem;
+        letter-spacing: .08rem;
+        font-weight: 200;
+        cursor: pointer;
+    }
+}
