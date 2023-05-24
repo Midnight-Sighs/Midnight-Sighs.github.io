@@ -1,0 +1,270 @@
+ /* #region Twinkle Point Stars */
+.twinkle{
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    width: 1vh; 
+    background:linear-gradient(-42deg, rgba(248, 236, 180, 0.795), rgb(255, 255, 255), rgb(247, 228, 211));
+    filter: drop-shadow(2px 2px 2vh rgb(255, 255, 255));
+    border-radius: 100%;
+    
+}
+
+.t_two{
+    left: 40%;
+    top: 43%;
+    opacity: 70%;
+}
+.t_three{
+    left: 15%;
+    top: 25%;
+    opacity: 40%;
+}
+.t_four{
+    left: 7%;
+    top: 7%;
+    opacity:30%
+}
+.t_five{
+    left: 75%;
+    top: 40%;
+}
+.t_six{
+    left: 90%;
+    top:35%;
+    opacity: 50%;
+}
+.twinkle:nth-child(2)::after, .twinkle:nth-child(2)::before{
+    animation-delay: 2s;
+    animation: expand 5s ease-in-out infinite;
+}
+.twinkle:nth-child(3)::after, .twinkle:nth-child(3)::before{
+    animation-delay: 6s;
+    animation: expand .9s ease-in-out infinite;
+}
+.twinkle:nth-child(4)::after, .twinkle:nth-child(4)::before{
+    animation-delay: .1s;
+    animation: expand .5s ease-in-out infinite;
+}
+.twinkle:nth-child(5)::after, .twinkle:nth-child(5)::before{
+    animation-delay: 3s;
+    animation: expand 5s ease-in-out infinite;
+}
+.twinkle:nth-child(6)::after, .twinkle:nth-child(6)::before{
+    animation-delay: 1s;
+    animation: expand 2s ease-in-out infinite;
+}
+
+.twinkle::after, .twinkle::before{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: calc(30% - .5vh);
+    height: .1vh;
+    width: .1vh;
+    background: linear-gradient(-45deg, rgb(40, 127, 143) 0%, rgb(251, 253, 253) 55%, rgb(40, 127, 143) 100%);
+    transform: translateX(50%) rotateZ(-45deg);
+    border-radius: 100%;
+    animation: expand 5s ease-in-out infinite;
+}
+
+
+@keyframes expand{
+0%{
+    width: 5%;
+}
+40%{
+    width: 2vh;
+}
+100%{
+    width: 5%;
+}
+}
+
+.twinkle::after{
+    transform: translateX(50%) rotateZ(45deg);
+}
+
+/* #endregion */
+
+
+/* #region Small-Twinkles */
+
+.twinkle_two{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: .2rem;
+    width: .2rem;
+    border-radius: 100%;
+    background:white;
+    box-shadow:     20rem 10rem 0 0 white,
+                    12rem -32rem 0 0 white,
+                    -34rem -9rem 0 0 white,
+                    -50rem -22rem 0 0 white;
+    animation: bright-in-out 5s ease-in-out infinite;
+}
+
+
+@keyframes bright-in-out{
+    0%{
+        opacity: 80%;
+    }
+    50%{
+        opacity: 10%;
+    }
+    100%{
+        opacity:100%;
+    }
+}
+.twinkle_two:nth-child(7){
+    top: 10% ;
+    left: 33% ;
+    background: rgb(250, 255, 185);
+    animation-delay: 3s;
+}
+.twinkle_two:nth-child(8){
+    top: 30% ;
+    left: 70%;
+    background: rgba(255, 235, 168, 0.884) ;
+    animation-delay: 6s;
+}
+.twinkle_two:nth-child(9){
+    top: 40% ;
+    left: 65%;
+    animation-delay: 2s;
+}
+.twinkle_two:nth-child(10){
+    top: 26% ;
+    left: 38%;
+    background: rgb(175, 255, 251);
+    animation-delay: 5s;
+}
+.twinkle_two:nth-child(11){
+    top: 48% ;
+    left: 88%;
+    background:rgba(240, 218, 173, 0.781) ;
+    animation-delay: 1s;
+}
+.twinkle_two:nth-child(12){
+    top: 47%;
+    left: 55%;
+    animation-delay: 7s;
+}
+.twinkle_two:nth-child(13){
+    top: 19%;
+    left: 34%;
+    background: rgba(233, 209, 196, 0.842) ;
+    animation-delay: 2s;
+}
+.twinkle_two:nth-child(14){
+    top: 28%;
+    left: 80%;
+    background:rgb(119, 158, 163) ;
+    animation-delay: 2s;
+}
+.twinkle_two:nth-child(15){
+    top: 28%;
+    left: 10%;
+    background:rgba(156, 230, 240, 0.685) ;
+    animation-delay: 6s;
+}
+.twinkle_two:nth-child(16){
+    top: 33%;
+    left: 46%;
+    background:rgb(238, 231, 174) ;
+    animation-delay: 2s;
+}
+.twinkle_two:nth-child(17){
+    top: 15%;
+    left: 64%;
+    background:rgb(227, 243, 245) ;
+    animation-delay: 8s;
+}
+.twinkle_two:nth-child(18){
+    top: 26%;
+    left: 54%;
+    background:rgb(247, 231, 161) ;
+    animation-delay: 2s;
+}
+.twinkle_two:nth-child(19){
+    top: 26%;
+    left: 74%;
+    background:rgb(213, 244, 248) ;
+    animation-delay: 5s;
+}
+
+/* #endregion Small Twinkles */
+
+
+.sky-wrapper{
+    position: relative;
+    margin-top: 0vh;
+    margin-left: 0vw;
+    margin-right: 80vw;
+    margin-bottom: 20vh;
+    transform: rotateZ(45deg);
+}
+
+.star{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: .8vh;
+    background:linear-gradient(-42deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+    filter: drop-shadow(0px 0px .7vh rgb(255, 255, 255));
+    border-radius: 100%;
+    animation-delay: 10s;
+    animation:  tail 2s ease-in-out infinite,
+                fall 2s ease-in-out infinite;
+    
+}
+
+@keyframes fall{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(50vh);
+    }
+}
+
+@keyframes tail{
+    0%{
+        width: 0vh;
+    }
+    30%{
+        width: 10vh;
+    }
+    100%{
+        width: 0vw;
+    }
+}
+
+.star::after, .star::before{
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: calc(50% - .3vh);
+    height: .6vh;
+    background: linear-gradient(-45deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 35%, rgb(255, 255, 255) 100%);
+    transform: translateX(50%) rotateZ(-45deg);
+    border-radius: 50%;
+    animation: poof 2s ease-in-out infinite;
+}
+
+@keyframes poof{
+    0%{
+        width: 0vh;
+    }
+    50%{
+        width: 1.7vw;
+    }
+    100%{
+        width: 0vh;
+    }
+}
+
+.star::after{
+    transform: translateX(50%) rotateZ(45deg);
+}
