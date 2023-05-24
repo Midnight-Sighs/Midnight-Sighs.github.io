@@ -14,6 +14,8 @@ export const Header = () => {
             <h5 onClick={()=>scrollTo("#technologies")}>Technologies</h5>
             <h5 onClick={()=>scrollTo("#otherTech")}>Other Tech</h5>
             {/* <h5 onClick={()=>scrollTo("#art")}>Art</h5>
+            <h5 onClick={()=>scrollTo("#gaming")}>Gaming</h5>
+            <h5 onClick={()=>scrollTo("#blog")}>Blog</h5>
             <h5 onClick={()=>scrollTo("#about")}>About</h5> */}
         </div>
     )
