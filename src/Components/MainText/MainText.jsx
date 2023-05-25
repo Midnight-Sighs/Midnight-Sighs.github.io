@@ -4,11 +4,8 @@ import './MainText.scss'
 export const MainText = () => {
     return (
         <div className="main-text-wrapper">
-            <p>!! PAGE UNDER CONSTRUCTION -- NOT MOBILE FRIENDLY YET !!</p>
+            <p>!! PAGE UNDER CONSTRUCTION !!</p>
             <p className="real-name">
-                <span>
-                    Arries
-                </span>
                 <span className="icon">
                     <svg viewBox="0 0 128 128" class="gh-icon">
                         <a href="https://github.com/Midnight-Sighs" target="_blank" rel="noreferrer">
@@ -35,7 +32,7 @@ export const MainText = () => {
                 "Midnight"
             </p>
             <p className="real-name">
-                Kurai
+                AKA Arreis Kurai
             </p>
         </div>
     )
