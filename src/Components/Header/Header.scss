@@ -1,16 +1,50 @@
 @import '../../Styles/variables';
 
 .header-wrapper{
-    display: flex;
-    flex-direction: row;
-    h5{
+    .display-none{
+        display: none;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: row;
+        h5{
+            font-size: 2rem;
+            font-family: $title-font;
+            color: $bright-yellow;
+            margin-left: 2rem;
+            margin-top: .5rem;
+            letter-spacing: .08rem;
+            font-weight: 200;
+            cursor: pointer;
+        }
+        @media (max-width: 1200px){
+            display: none;
+        }
+    }
+    .burger-menu{
+        position:fixed;
+        margin-top:1rem;
+        margin-left: 1rem;
+        svg{
+            height: 3rem;
+            width: 3rem;
+        }
+        @media (min-width: 1201px){
+            display: none;
+        }
+    }
+    .fries{
+        z-index: 3;
         font-size: 2rem;
-        font-family: $title-font;
         color: $bright-yellow;
-        margin-left: 2rem;
-        margin-top: .5rem;
-        letter-spacing: .08rem;
-        font-weight: 200;
-        cursor: pointer;
+        background-color: $dark-blue;
+        padding: 6px;
+        border-radius: $container-border-radius;
+        h5{
+            margin: 5px;
+            &:hover{
+                color: $my-teal;
+            }
+        }
     }
 }
