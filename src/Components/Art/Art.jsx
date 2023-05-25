@@ -65,8 +65,10 @@ export const Art = () => {
             <div className="preview-containers">
                 {artTypes.map((artType)=>(
                     <div className="each-art-type" key={`each-section-${artType.id}`}>
-                        <h6>{artType.name}</h6>
-                        <img src={artType.img} alt={artType.altText} />
+                        <div className="title-img">
+                            <h6>{artType.name}</h6>
+                            <img src={artType.img} alt={artType.altText} />
+                        </div>
                         <p className="description-text">
                             {artType.description}
                         </p>
