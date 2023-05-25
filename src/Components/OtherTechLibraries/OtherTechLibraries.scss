@@ -4,6 +4,12 @@
     margin-top: 5%;
     margin-bottom: 5%;
     max-width: 65%;
+    @media (max-width: 1200px){
+        max-width: 80%;
+    }
+    @media (max-width: 690px){
+        max-width: 100%;
+    }
     .other-tech-container{
         background-color: $half-dark-blue;
         padding: $container-padding;

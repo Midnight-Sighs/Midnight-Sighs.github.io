@@ -14,10 +14,24 @@
         background-color: $half-dark-blue;
         border-radius: $container-border-radius;
         padding: $container-padding;
+        @media (max-width: 1250px){
+            max-width: 80%;
+        }
+        @media (max-width: 690px){
+            max-width: 100%;
+        }
         svg{
             height: 6rem;
             width: 6rem;
             margin-top: 1.5rem;
+            @media (max-width: 1550px){
+                height: 5rem;
+                width: 5rem;
+            }
+            @media (max-width: 750px){
+                height: 3.5rem;
+                width: 3.5rem;
+            }
         }
         span{
             display: flex;
@@ -25,6 +39,12 @@
             align-items: center;
             color: $my-teal;
             font-size: 8rem;
+            @media (max-width: 1550px){
+                font-size: 6rem;
+            }
+            @media (max-width: 750px){
+                font-size: 4rem;
+            }
         }
     }
 }
