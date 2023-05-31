@@ -4,9 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    align-items: center;
+    margin-top: $section-margin-top;
     .art-descriptive-container{
         background-color: $half-dark-blue;
-        max-width: 75%;
+        max-width: $section-text-container-max-width;
         padding: $container-padding;
         border-radius: $container-border-radius;
         font-size: $container-font-size;

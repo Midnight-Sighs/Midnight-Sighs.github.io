@@ -1,16 +1,15 @@
 @import '../../Styles/variables';
 
 .technologies-wrapper{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: $section-margin-top;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     .tech-container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 60%;
+        max-width: $section-text-container-max-width;
         background-color: $half-dark-blue;
         border-radius: $container-border-radius;
         padding: $container-padding;

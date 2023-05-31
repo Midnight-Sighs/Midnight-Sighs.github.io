@@ -37,7 +37,7 @@ export const Projects = () => {
 
 
     return (
-        <div className="projects-wrapper left-indent" id="#projects">
+        <div className="projects-wrapper" id="#projects">
             <h3 className="section-headers">
                 Code Projects
             </h3>

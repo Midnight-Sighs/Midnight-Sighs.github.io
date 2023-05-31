@@ -1,19 +1,21 @@
 @import '../../Styles/variables';
 
 .other-tech-wrapper{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    max-width: 65%;
-    @media (max-width: 1200px){
-        max-width: 80%;
-    }
-    @media (max-width: 690px){
-        max-width: 100%;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: $section-margin-top;
     .other-tech-container{
+        max-width: $section-text-container-max-width;
         background-color: $half-dark-blue;
         padding: $container-padding;
         border-radius: $container-border-radius;
+        @media (max-width: 1200px){
+            max-width: 80%;
+        }
+        @media (max-width: 690px){
+            max-width: 100%;
+        }
         ul{
             display: flex;
             flex-direction: row;

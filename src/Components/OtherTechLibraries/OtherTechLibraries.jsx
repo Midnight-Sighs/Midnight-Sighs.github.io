@@ -35,7 +35,7 @@ export const OtherTechLibraries = () => {
         },
         {
             id: 7,
-            name: "Postman, Google, ClickUp Apis"
+            name: "Youtube, Google, ClickUp Apis"
         },
         {
             id: 8,
@@ -52,9 +52,9 @@ export const OtherTechLibraries = () => {
     ]
 
     return (
-        <div className="other-tech-wrapper left-indent" id="#otherTech">
+        <div className="other-tech-wrapper" id="#otherTech">
             <h3 className="section-headers">
-                Other Tech Libraries/Helpers
+                Other Tech
             </h3>
             <div className="other-tech-container">
                 <p>

@@ -1,10 +1,10 @@
 import React from 'react'
 import './MainText.scss'
 
-export const MainText = () => {
+export const MainText = ({title = "Midnight", topText="Developer || Artist || All Around Nerd", subTitle="AKA Arreis Kurai"}) => {
     return (
         <div className="main-text-wrapper">
-            <p>!! PAGE UNDER CONSTRUCTION !!</p>
+            <p>{topText}</p>
             <p className="real-name">
                 <span className="icon">
                     <svg viewBox="0 0 128 128" class="gh-icon">
@@ -29,10 +29,10 @@ export const MainText = () => {
                 </span>
             </p>
             <p className="midnight">
-                "Midnight"
+                {title}
             </p>
             <p className="real-name">
-                AKA Arreis Kurai
+                {subTitle}
             </p>
         </div>
     )

@@ -30,20 +30,6 @@
   background-position: bottom right;
 }
 
-.left-indent{
-  margin-left: 5%;
-  @media (max-width: 690px){
-    margin-left: 0;
-  }
-}
-
-.right-indent{
-  margin-right: 5%;
-  @media(max-width: 690px){
-    margin-right: 0;
-  }
-}
-
 .section-headers{
   color: $off-white;
   font-size: 4rem;

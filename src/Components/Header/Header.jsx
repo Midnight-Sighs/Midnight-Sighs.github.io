@@ -18,10 +18,9 @@ export const Header = () => {
                 <h5 onClick={()=>scrollTo("#technologies")}>Technologies</h5>
                 <h5 onClick={()=>scrollTo("#otherTech")}>Other Tech</h5>
                 <h5 onClick={()=>scrollTo("#art")}>Art</h5>
-                {/* 
-                <h5 onClick={()=>scrollTo("#gaming")}>Gaming</h5>
-                <h5 onClick={()=>scrollTo("#blog")}>Blog</h5>
-                <h5 onClick={()=>scrollTo("#about")}>About</h5> */}
+                {/* <h5 onClick={()=>scrollTo("#gaming")}>Gaming</h5>
+                <h5 onClick={()=>scrollTo("#blog")}>Blog</h5> */}
+                <h5 onClick={()=>scrollTo("#about")}>About</h5>
             </div>
             <div className="burger-menu">
                 <svg onClick={()=>setShowBurgerMenu(!showBurgerMenu)}fill="#ffd06c" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -32,10 +31,9 @@ export const Header = () => {
                     <h5 onClick={()=>scrollTo("#technologies")}>Technologies</h5>
                     <h5 onClick={()=>scrollTo("#otherTech")}>Other Tech</h5>
                     <h5 onClick={()=>scrollTo("#art")}>Art</h5>
-                    {/* 
-                    <h5 onClick={()=>scrollTo("#gaming")}>Gaming</h5>
-                    <h5 onClick={()=>scrollTo("#blog")}>Blog</h5>
-                    <h5 onClick={()=>scrollTo("#about")}>About</h5> */}
+                    {/* <h5 onClick={()=>scrollTo("#gaming")}>Gaming</h5>
+                    <h5 onClick={()=>scrollTo("#blog")}>Blog</h5> */}
+                    <h5 onClick={()=>scrollTo("#about")}>About</h5>
                 </div>
             </div>
         </div>

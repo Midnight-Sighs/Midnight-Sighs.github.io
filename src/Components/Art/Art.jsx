@@ -49,7 +49,7 @@ export const Art = () => {
     ]
 
     return (
-        <div className="art-wrapper right-indent" id="#art">
+        <div className="art-wrapper" id="#art">
             <h3 className="section-headers">
                 Art
             </h3>

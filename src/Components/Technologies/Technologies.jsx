@@ -3,7 +3,7 @@ import './Technologies.scss'
 
 export const Technologies = () => {
     return (
-        <div className="technologies-wrapper right-indent" id="#technologies">
+        <div className="technologies-wrapper" id="#technologies">
             <h3 className="section-headers">
                 Technologies
             </h3>

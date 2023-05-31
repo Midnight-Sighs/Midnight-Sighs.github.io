@@ -5,6 +5,7 @@ import Projects from './Components/Projects';
 import Technologies from './Components/Technologies';
 import OtherTechLibraries from './Components/OtherTechLibraries';
 import Art from './Components/Art';
+import About from './Components/About';
 
 import './Styles/animation.scss'
 import './App.scss';
@@ -20,6 +21,8 @@ function App() {
             <Technologies />
             <OtherTechLibraries />
             <Art />
+            <About />
+            <br />
         </div>
     );
 }
