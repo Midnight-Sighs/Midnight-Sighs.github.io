@@ -15,7 +15,7 @@ export const Projects = () => {
             altTxt: "Alternate Northern Lights Image",
             link: "",
             title: "Wizard Pig Sorcerer",
-            description: "While I cannot show the project I primarily worked on with Wizard Pig, I can offer the description that I worked primarily as a front end developer and somewhat multiclassing into QA.  If I was a level 10 front end developer, I would be a level 4 QA, between manual bug tracking/fixing, E2E tests, and Component tests.",
+            description: "While I cannot show the project I primarily work on with Wizard Pig, I can offer the description that I work primarily as a front end developer and somewhat multiclassing into QA.  If I was a level 10 front end developer, I would be a level 4 QA, between manual bug tracking/fixing, E2E tests, and Component tests with Cypress.  I also maintain Storybook and other documentation",
         },
         {
             id: 2,

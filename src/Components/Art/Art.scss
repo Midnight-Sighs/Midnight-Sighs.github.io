@@ -1,4 +1,5 @@
 @import '../../Styles/variables';
+@import '../../Styles/mixinx';
 
 .art-wrapper{
     display: flex;
@@ -65,20 +66,16 @@
             height: 250px;
             object-fit: cover;
             &:hover{
-                transform: scale(2.5);
+                transform: scale(2.0);
                 z-index: 2;
                 object-fit:contain;
             }
         }
         h6{
-            color: $off-white;
-            font-size: 1.5rem; 
-            margin: 1rem;
+            @include basic-h6;
         }
         .description-text{
-            font-family: $regular-font;
-            font-size: $container-font-size;
-            color: $off-white;
+            @include basic-container-font;
             @media (max-width: 1330px){
                 margin: .5rem 1rem;
                 max-width: 200px;

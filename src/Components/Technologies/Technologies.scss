@@ -1,4 +1,5 @@
 @import '../../Styles/variables';
+@import '../../Styles/mixinx';
 
 .technologies-wrapper{
     margin-top: $section-margin-top;
@@ -6,9 +7,7 @@
     flex-direction: column;
     align-items: center;
     .tech-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include basic-flex-row-center;
         max-width: $section-text-container-max-width;
         background-color: $half-dark-blue;
         border-radius: $container-border-radius;

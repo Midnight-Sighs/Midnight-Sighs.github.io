@@ -1,21 +1,24 @@
 @import '../../Styles/variables';
+@import '../../Styles/mixinx';
 
 .header-wrapper{
     .display-none{
-        display: none;
+        display: none !important;
     }
     .main-menu{
         display: flex;
         flex-direction: row;
-        h5{
+        a{
+            @include link-font;
             font-size: 2rem;
-            font-family: $title-font;
-            color: $bright-yellow;
             margin-left: 2rem;
             margin-top: .5rem;
-            letter-spacing: .08rem;
-            font-weight: 200;
+            margin-bottom: 0;
             cursor: pointer;
+            text-decoration: none;
+            :hover{
+                color: $my-teal;
+            }
         }
         @media (max-width: 1200px){
             display: none;
@@ -32,17 +35,25 @@
         @media (min-width: 1201px){
             display: none;
         }
+        .burger-sub-menu{
+            margin-left: 1.5rem;
+            font-size: 1rem;
+        }
     }
     .fries{
+        display: flex;
+        flex-direction: column;
         z-index: 3;
         font-size: 2rem;
         color: $bright-yellow;
         background-color: $dark-blue;
         padding: 6px;
         border-radius: $container-border-radius;
-        h5{
-            margin: 5px;
-            &:hover{
+        a{
+            @include link-font;
+            margin: 0;
+            text-decoration: none;
+            :hover{
                 color: $my-teal;
             }
         }

@@ -1,15 +1,12 @@
 @import '../../Styles/variables';
+@import '../../Styles/mixinx';
 
 .about-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     .about-content{
-        background-color: $half-dark-blue;
-        border-radius: $container-border-radius;
-        font-size: $container-font-size;
-        padding: $container-padding;
-        color: $off-white;
-        max-width: $section-text-container-max-width;
+        @include basic-container-font;
+        @include basic-block-view;
     }
 }

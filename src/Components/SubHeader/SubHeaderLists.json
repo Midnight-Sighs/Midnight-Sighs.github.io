@@ -1,0 +1,57 @@
+{
+    "development":[
+        {
+            "id": 1,
+            "name": "Code Projects",
+            "scrollId": "#projects"
+        },
+        {
+            "id": 2,
+            "name": "Technologies",
+            "scrollId": "#technologies"
+        },
+        {
+            "id": 3,
+            "name": "Other Tech",
+            "scrollId": "#otherTech"
+        }
+    ],
+    "streaming":[
+        {
+            "id": 1,
+            "name": "Overview",
+            "scrollId": "#overview"
+        },
+        {
+            "id": 2,
+            "name": "Sub Benefits",
+            "scrollId": "#subBenefits" 
+        },
+        {
+            "id": 3,
+            "name": "Commands",
+            "scrollId": "#commands"
+        },
+        {
+            "id": 4,
+            "name": "Schedule",
+            "scrollId": "#schedule"
+        },
+        {
+            "id": 5,
+            "name": "Games History",
+            "scrollId": "#games"
+        },
+        {
+            "id": 6,
+            "name": "Recommended Streamers",
+            "scrollId": "#recommended"
+        },
+        {
+            "id": 7,
+            "name": "Clips",
+            "scrollId": "#clips"
+        }
+    ]
+    
+}

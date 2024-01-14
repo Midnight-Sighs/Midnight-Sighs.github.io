@@ -50,7 +50,8 @@ export const Art = () => {
 
     return (
         <div className="art-wrapper" id="#art">
-            <h3 className="section-headers">
+            {/* <h3 className="section-headers"> */}
+            <h3 className="page-title">
                 Art
             </h3>
             <div className="art-descriptive-container">

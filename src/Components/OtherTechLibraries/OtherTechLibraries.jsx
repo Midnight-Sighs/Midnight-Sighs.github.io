@@ -48,6 +48,10 @@ export const OtherTechLibraries = () => {
         {
             id: 10,
             name: "Whimsical"
+        },
+        {
+            id:11,
+            name: "Storybook"
         }
     ]
 
@@ -60,13 +64,11 @@ export const OtherTechLibraries = () => {
                 <p>
                     While not meant to be an exhaustive list, this is just meant to be a demonstration of other things I've used and am familiar with.  Moreso as a demonstration that I can adapt to many different types of documentations and styles.  
                 </p>
-                <p>
-                    <ul>
-                        {libraryList.map((library)=>(
-                            <li key={`library-${library.id}`}>{library.name}</li>
-                        ))}
-                    </ul>
-                </p>
+                <ul>
+                    {libraryList.map((library)=>(
+                        <li key={`library-${library.id}`}>{library.name}</li>
+                    ))}
+                </ul>
             </div>
         </div>
     )

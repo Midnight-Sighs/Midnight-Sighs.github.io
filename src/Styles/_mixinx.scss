@@ -1,0 +1,36 @@
+@import './variables';
+
+@mixin basic-container-font{
+    font-family: $regular-font;
+    font-size: $container-font-size;
+    letter-spacing: .05rem;
+    color: $off-white
+}
+
+@mixin basic-h6{
+    color: $off-white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+@mixin basic-flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@mixin link-font{
+    font-family: $title-font;
+    color: $bright-yellow;
+    letter-spacing: .08rem;
+    font-weight: 200;
+}
+
+@mixin basic-block-view{
+    background-color: $half-dark-blue;
+    border-radius: $container-border-radius;
+    padding: $container-padding;
+    max-width: $section-text-container-max-width;
+}
+

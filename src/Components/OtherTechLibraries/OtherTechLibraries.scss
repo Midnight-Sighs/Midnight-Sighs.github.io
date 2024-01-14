@@ -1,4 +1,5 @@
 @import '../../Styles/variables';
+@import '../../Styles/mixinx';
 
 .other-tech-wrapper{
     display: flex;
@@ -22,9 +23,8 @@
             flex-wrap: wrap;
         }
         p, li{
+            @include basic-container-font;
             min-width: 340px;
-            color: $off-white;
-            font-size: $container-font-size;
         }
     }
 }

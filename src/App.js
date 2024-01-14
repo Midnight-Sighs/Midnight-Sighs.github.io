@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
+
 import Header from './Components/Header';
 import Stars from './Components/Stars';
 import MainText from './Components/MainText';
@@ -14,14 +16,8 @@ function App() {
 
     return (
         <div id="bg-img">
-            <Stars />
             <Header />
-            <MainText />
-            <Projects />
-            <Technologies />
-            <OtherTechLibraries />
-            <Art />
-            <About />
+            <Outlet />
             <br />
         </div>
     );
