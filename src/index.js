@@ -13,7 +13,7 @@ import Streaming from './Pages/Streaming';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <HashRouter basename="/Midnight-Sighs.github.io">
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<App />} >
                     <Route index element={<MainText />} />
