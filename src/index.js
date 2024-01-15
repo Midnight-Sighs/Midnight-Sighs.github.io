@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { HashRouter, Routes, Route} from 'react-router-dom';
 
 import App from './App';
 import MainText from './Components/MainText';
@@ -13,7 +13,7 @@ import Streaming from './Pages/Streaming';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter basename="/Midnight-Sighs.github.io">
             <Routes>
                 <Route path="/" element={<App />} >
                     <Route index element={<MainText />} />
@@ -24,29 +24,6 @@ root.render(
                     <Route path="*" element={<ErrorPage />} />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 );
-
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-// import App from './App';
-// import ErrorPage from './Pages/ErrorPage';
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     errorElement: <ErrorPage />
-//   }
-// ])
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <RouterProvider router={router} />
-//   </React.StrictMode>
-// );
