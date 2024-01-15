@@ -13,7 +13,7 @@ import Streaming from './Pages/Streaming';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/Midnight-Sighs.github.io">
             <Routes>
                 <Route path="/" element={<App />} >
                     <Route index element={<MainText />} />
@@ -27,26 +27,3 @@ root.render(
         </BrowserRouter>
     </React.StrictMode>
 );
-
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-// import App from './App';
-// import ErrorPage from './Pages/ErrorPage';
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     errorElement: <ErrorPage />
-//   }
-// ])
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <RouterProvider router={router} />
-//   </React.StrictMode>
-// );
