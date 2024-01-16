@@ -8,10 +8,7 @@
     align-items: center;
     margin-top: $section-margin-top;
     .art-descriptive-container{
-        background-color: $half-dark-blue;
-        max-width: $section-text-container-max-width;
-        padding: $container-padding;
-        border-radius: $container-border-radius;
+        @include basic-block-view;
         font-size: $container-font-size;
         color: $off-white;
         @media (max-width: 690px){

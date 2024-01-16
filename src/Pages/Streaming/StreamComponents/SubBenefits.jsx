@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SubBenefits = ()=>{
     return(
-        <div className="center-column" id="#subBenefits">
+        <div className="center-column" id="#subbenefits">
             <p className="section-headers">
                 Subscriber Benefits
             </p>

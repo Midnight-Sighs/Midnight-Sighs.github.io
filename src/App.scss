@@ -67,3 +67,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.sub-category-header{
+    font-family: $title-font;
+    color: $my-teal;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

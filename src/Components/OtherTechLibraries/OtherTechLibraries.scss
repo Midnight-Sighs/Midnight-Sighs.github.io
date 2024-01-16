@@ -7,10 +7,7 @@
     align-items: center;
     margin-top: $section-margin-top;
     .other-tech-container{
-        max-width: $section-text-container-max-width;
-        background-color: $half-dark-blue;
-        padding: $container-padding;
-        border-radius: $container-border-radius;
+        @include basic-block-view;
         @media (max-width: 1200px){
             max-width: 80%;
         }

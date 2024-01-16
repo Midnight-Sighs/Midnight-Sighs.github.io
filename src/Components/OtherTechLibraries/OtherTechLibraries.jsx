@@ -56,7 +56,7 @@ export const OtherTechLibraries = () => {
     ]
 
     return (
-        <div className="other-tech-wrapper" id="#otherTech">
+        <div className="other-tech-wrapper" id="#othertech">
             <h3 className="section-headers">
                 Other Tech
             </h3>
