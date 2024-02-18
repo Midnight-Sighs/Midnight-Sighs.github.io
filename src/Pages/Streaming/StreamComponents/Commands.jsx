@@ -126,7 +126,49 @@ export const Commands=()=>{
                                 !whoIs *name*
                                 <br />
                                 <span>
-                                    Followed by a name of someone else I have on my stream or talk about, you can get some more information about them (i.e "!whoIs Royal")
+                                    Followed by a name of someone else I have on my stream (Royal, Grave, Torp, Panda, Roro, Bug) or talk about, you can get some more information about them (i.e "!whoIs Royal")
+                                </span>
+                            </li>
+                            <li>
+                                !deathadd (mod only)
+                                <br/>
+                                <span>
+                                    For a mod to be able to add a death to compatible games
+                                </span>
+                            </li>
+                            <li>
+                                !death
+                                <br />
+                                <span>
+                                    If you just want to see the death counter for a certain game
+                                </span>
+                            </li>
+                            <li>
+                                !win (mod only)
+                                <br />
+                                <span>
+                                    Records a win for a compatible game
+                                </span>
+                            </li>
+                            <li>
+                                !loss (mod only)
+                                <br/>
+                                <span>
+                                    Records a loss for a compatible game
+                                </span>
+                            </li>
+                            <li>
+                                !w/l
+                                <br />
+                                <span>
+                                    Shows the win/loss ratio for a compatible game
+                                </span>
+                            </li>
+                            <li>
+                                !setTitle
+                                <br />
+                                <span>
+                                    Add a custom title for yourself to be referred to when the bot addresses you.  For example, the bot's title is "Rawrsoms bot"
                                 </span>
                             </li>
                         </ul>
