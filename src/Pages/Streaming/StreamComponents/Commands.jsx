@@ -81,6 +81,13 @@ export const Commands=()=>{
                                 </span>
                             </li>
                             <li>
+                                !rock
+                                <br />
+                                <span>
+                                    Shows you our pet rock, Rocky!
+                                </span>
+                            </li>
+                            <li>
                                 !hug
                                 <br />
                                 <span>
@@ -126,7 +133,7 @@ export const Commands=()=>{
                                 !whoIs *name*
                                 <br />
                                 <span>
-                                    Followed by a name of someone else I have on my stream (Royal, Grave, Torp, Panda, Roro, Bug) or talk about, you can get some more information about them (i.e "!whoIs Royal")
+                                    Followed by a name of someone else I have on my stream (Royal, Grave, Torp, Panda, Roro, Bug) or talk about, you can get some more information about them (i.e "!whoIs Royal").  Can do: Royal, Graves, Panda, RoRo, Bug, Torp.
                                 </span>
                             </li>
                             <li>
@@ -169,6 +176,90 @@ export const Commands=()=>{
                                 <br />
                                 <span>
                                     Add a custom title for yourself to be referred to when the bot addresses you.  For example, the bot's title is "Rawrsoms bot"
+                                </span>
+                            </li>
+                            <li>
+                                !pet
+                                <br />
+                                <span>
+                                    Allows you to pet whoever you want! Without a username, it pets Midnight and with one, it pets that person.  Can also use "!pet rock" to pet Rocky.  
+                                </span>
+                            </li>
+                            <li>
+                                !feed
+                                <br />
+                                <span>
+                                    Like hugging and petting, allows you to do it to Midnight if blank or a user if not.  Can also be used as "!feed rock" in order to feed Rocky
+                                </span>
+                            </li>
+                            <li>
+                                !clip
+                                <br />
+                                <span>
+                                    This doesn't make a CLIP but it sets a stream marker so I can go back and make a clip later! This way, we don't end up with an auto length of time clip that starts and ends at random times!
+                                </span>
+                            </li>
+                            <li>
+                                #damnDevil
+                                <br />
+                                <span>
+                                    Just because.
+                                </span>
+                            </li>
+                            <li>
+                                !damnDevil
+                                <br />
+                                <span>
+                                    Shows you the number of times devil has been damned
+                                </span>
+                            </li>
+                            <li>
+                                #blamePanda
+                                <br />
+                                <span>
+                                    It's always his fault anyway.  Use this everywhere and spread the word!
+                                </span>
+                            </li>
+                            <li>
+                                !blamePanda
+                                <br />
+                                <span>
+                                    Shows you the number of times Panda has been blamed.  
+                                </span>
+                            </li>
+                            <li>
+                                !commands
+                                <br />
+                                <span>
+                                    Brings you here!
+                                </span>
+                            </li>
+                            <li>
+                                !fire
+                                <br />
+                                <span>
+                                    Encourages everyone to burn chat down.  Fun times. 
+                                </span>
+                            </li>
+                            <li>
+                                !scarecount
+                                <br />
+                                <span>
+                                    If you really MUST know the scare counter but Midnight hasn't been scared.....you can check it here.  Likewise, you can add a username after this, too!
+                                </span>
+                            </li>
+                            <li>
+                                !fraid (mod only)
+                                <br />
+                                <span>
+                                    Gives the follower raid message for followers to copy/paste for raids.
+                                </span>
+                            </li>
+                            <li>
+                                !sraid (mod only)
+                                <br />
+                                <span>
+                                    Gives the subscriber raid message for subs to copy/paste for raids.
                                 </span>
                             </li>
                         </ul>
